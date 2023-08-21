@@ -1,0 +1,34 @@
+body {
+    background-image: url('wepik-export-20230820192706XWMK.png');
+    background-size: 1400px 800px;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+    height: 100vh;
+}
+
+
+canvas {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+   
+}
+
+button#startButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+button#stopButton {
+    background-color: #f44336;
+    color: white;
+    border: none;
+}
